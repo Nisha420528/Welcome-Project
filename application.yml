@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: AUTH-SERVICE
+  datasource:
+    url: jdbc:mysql://localhost:3306/mymicroservice
+    username: root
+    password: dubeynisha
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+server:
+  port: 4444
